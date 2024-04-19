@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 8px;
+    
+}
+
+header h1{
+    color: red;
+    font-size: 100px;
+    margin-left: 350px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 550px;
+    
+    
+}
+h2{
+    color: #f4f4f4;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: border-box;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color:aqua;
+    
+    
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(../images/HOTEL.jpg);
+    font-size: 20px;
+    
+    width: auto;
+}
+#home h1{
+    color: #f4f4f4;
+}
+#home p{
+    color: rgb(10, 142, 151);
+    font-weight: 700;
+}
+#contact p{
+    color: rgb(10, 142, 151);
+    font-weight: 700;
+}
+#services ul {
+    list-style-type: none;
+    padding: 0;
+    color: aqua;
+}
+
+#services ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+#services ul li:hover{
+    background-color: rgb(24, 52, 65);
+}
+address {
+    font-style: normal;
+}
+footer{
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+    background-color: black;
+    height: 100px;
+}
+footer p{
+    color: blanchedalmond;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 45px;
+}
